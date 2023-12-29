@@ -20,21 +20,16 @@ public class Ex12 {
 		int no3 =sc.nextInt();
 		
 		int no;
-		int avr = (no1+no2+no3)/3;
 		
-		
-		
-		
-		if(no1<avr) {
-			no= no1;
+		if(no1<no2&&no1<no3) {
+			no=no1;
 		}
-		else if(no2<avr) {
-			no= no2;
+		else if(no2<no1&&no2<no3) {
+			no=no2;
 		}
 		else {
-			no= no3;
+			no=no3;
 		}
-		
 		System.out.println("가장 작은수는"+ no +"입니다.");
 		
 		sc.close();
