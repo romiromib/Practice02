@@ -21,11 +21,11 @@ public class Ex15 {
 		String kiho = sc.nextLine();
 		System.out.print("숫자1: ");
 		int no1 = sc.nextInt();
-		System.out.print("숫자1: ");
+		System.out.print("숫자2: ");
 		int no2 = sc.nextInt();
 		
-		if(kiho!="*") {
-			
+		if(kiho!="*"||kiho!="-"||kiho!="+"||kiho!="/") {
+			System.out.println("계산할 수 없는 기호입니다.");
 		}
 		
 		switch(kiho) {
