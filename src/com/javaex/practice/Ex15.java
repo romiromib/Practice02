@@ -24,29 +24,37 @@ public class Ex15 {
 		System.out.print("숫자2: ");
 		int no2 = sc.nextInt();
 		
-		if(kiho!="*"||kiho!="-"||kiho!="+"||kiho!="/") {
+	
+		double result;
+		
+		if(kiho.equals("*")) {
+			result = no1*no2;
+			System.out.println("결과는: "+ result);
+		}
+		else if(kiho.equals("-")) {
+			result = no1-no2;
+			System.out.println("결과는: "+ result);
+		}
+		else if(kiho.equals("+")) {
+			result = no1+no2;
+			System.out.println("결과는: "+ result);
+		}
+		else if(kiho.equals("/")&&no2==0) {
+				System.out.println("계산할 수 없습니다.");
+			}
+		else if (kiho.equals("/")&&no2!=0){
+			result = no1/no2;
+				System.out.println("결과는: "+ result);
+			}
+		else {
 			System.out.println("계산할 수 없는 기호입니다.");
 		}
 		
-		switch(kiho) {
-		case "*" :
-			System.out.println("결과는: "+ no1*no2);
-		break;
 		
-		case "-" :
-			System.out.println("결과는: "+ (no1-no2));
-		break;
-		case "+" :
-			System.out.println("결과는: "+ (no1+no2));
-		break;
-		case "/" :
-			System.out.println("결과는: "+ no1/no2);
-		break;
-		
-	}
 		
 		sc.close();
+		}
 		
 	}
 
-}
+
