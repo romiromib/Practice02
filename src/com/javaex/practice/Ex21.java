@@ -29,6 +29,7 @@ public class Ex21 {
 		else {
 			System.out.println("잘못입력하셨습니다.");
 		}
+		
 		sc.close();
 
 	}

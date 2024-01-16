@@ -18,6 +18,7 @@ public class Ex20 {
 		else {
 			System.out.println("자음입니다.");
 		}
+		
 		sc.close();
 	}
 

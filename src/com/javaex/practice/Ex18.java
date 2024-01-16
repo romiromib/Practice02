@@ -21,7 +21,6 @@ public class Ex18 {
 			break;
 		}
 		
-		
 		sc.close();
 
 	}

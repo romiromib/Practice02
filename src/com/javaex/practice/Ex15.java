@@ -50,8 +50,6 @@ public class Ex15 {
 			System.out.println("계산할 수 없는 기호입니다.");
 		}
 		
-		
-		
 		sc.close();
 		}
 		

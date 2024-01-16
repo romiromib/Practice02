@@ -43,5 +43,4 @@ public class Ex23 {
 		}
 		sc.close();
 	}
-
 }

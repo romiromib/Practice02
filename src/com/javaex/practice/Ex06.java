@@ -27,7 +27,6 @@ public class Ex06 {
 		System.out.println(no+"그룹 입니다.");
 		sc.close();
 		
-
 	}
 
 }

@@ -41,7 +41,7 @@ public class Ex05 {
 			(4)	21일 때 결과 -"1번 그룹"입니다.
 			(5)	100일 때 결과 -"1번 그룹"입니다.
 
-	*/
+	*/ 
 
 	public static void main(String[] args) {
 

@@ -19,7 +19,7 @@ public class Ex01 {
 			참조자료형(String)의 경우에는 .equals("홍길동")을 사용해야 함.
 	
 	*/
-
+ 
 	}
 
 }

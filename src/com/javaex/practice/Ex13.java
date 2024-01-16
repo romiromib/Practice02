@@ -37,5 +37,4 @@ public class Ex13 {
 		}
 		sc.close();
 	}
-
 }
