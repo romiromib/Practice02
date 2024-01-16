@@ -35,7 +35,7 @@ public class Ex13 {
 				System.out.println(no2+"는(은)"+no1+"의 약수가 아닙니다.");
 			}
 		}
-		
+		sc.close();
 	}
 
 }
